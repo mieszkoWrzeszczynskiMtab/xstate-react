@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.App main {
+  display: flex;
+  height: 500px;
+  width: 500px;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+}
+
+.App img {
+  margin-top: 50px;
+  max-width: 500px;
+  max-height: 400px;
+}
+
+
+.App button {
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  border-radius: 500px;
+  transition-property: background-color, border-color, color, box-shadow, filter;
+  transition-duration: .3s;
+  border: 1px solid transparent;
+  letter-spacing: 2px;
+  min-width: 160px;
+  text-transform: uppercase;
+  white-space: normal;
+  font-weight: 700;
+  text-align: center;
+  padding: 17px 48px;
+  color: #fff;
+  background-color: #deb602;
+  height: 48px;
+  margin-bottom: 10px;
+}
+
+.App button:hover {
+  transform: scale(1.04);
+  background-color: #d79300;
+}
